@@ -14,6 +14,12 @@
 		8D8053112A54F13300DD324C /* DogsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8053102A54F13300DD324C /* DogsRouter.swift */; };
 		8D8053142A54F6BB00DD324C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8053132A54F6BB00DD324C /* NetworkManager.swift */; };
 		8D8053162A54F8D200DD324C /* DogsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8053152A54F8D200DD324C /* DogsResponse.swift */; };
+		A084AFBA2A7EAA190033F16E /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = A084AFB92A7EAA190033F16E /* Song.swift */; };
+		A084AFBC2A7EAA6C0033F16E /* ListSongViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A084AFBB2A7EAA6C0033F16E /* ListSongViewModel.swift */; };
+		A084AFBF2A7EAABB0033F16E /* TaylorSwiftSongsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A084AFBE2A7EAABB0033F16E /* TaylorSwiftSongsView.swift */; };
+		A084AFC32A7EAB560033F16E /* TaylorSwiftSongsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A084AFC22A7EAB560033F16E /* TaylorSwiftSongsPresenter.swift */; };
+		A084AFC52A7EB1DC0033F16E /* AlbumDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A084AFC42A7EB1DC0033F16E /* AlbumDetailView.swift */; };
+		A084AFC72A7ECFA20033F16E /* AlbumPhotoContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A084AFC62A7ECFA20033F16E /* AlbumPhotoContainer.swift */; };
 		EA5C960C2A43F37C0060FE73 /* CheckRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5C960B2A43F37C0060FE73 /* CheckRectangleView.swift */; };
 		EA5C960E2A43F9C20060FE73 /* DetailsRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5C960D2A43F9C20060FE73 /* DetailsRootView.swift */; };
 		EAB640E62A4B219200368ACD /* ListViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB640E52A4B219200368ACD /* ListViewPresenter.swift */; };
@@ -55,6 +61,12 @@
 		8D8053102A54F13300DD324C /* DogsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsRouter.swift; sourceTree = "<group>"; };
 		8D8053132A54F6BB00DD324C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		8D8053152A54F8D200DD324C /* DogsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsResponse.swift; sourceTree = "<group>"; };
+		A084AFB92A7EAA190033F16E /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		A084AFBB2A7EAA6C0033F16E /* ListSongViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSongViewModel.swift; sourceTree = "<group>"; };
+		A084AFBE2A7EAABB0033F16E /* TaylorSwiftSongsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaylorSwiftSongsView.swift; sourceTree = "<group>"; };
+		A084AFC22A7EAB560033F16E /* TaylorSwiftSongsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaylorSwiftSongsPresenter.swift; sourceTree = "<group>"; };
+		A084AFC42A7EB1DC0033F16E /* AlbumDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailView.swift; sourceTree = "<group>"; };
+		A084AFC62A7ECFA20033F16E /* AlbumPhotoContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumPhotoContainer.swift; sourceTree = "<group>"; };
 		EA5C960B2A43F37C0060FE73 /* CheckRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckRectangleView.swift; sourceTree = "<group>"; };
 		EA5C960D2A43F9C20060FE73 /* DetailsRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsRootView.swift; sourceTree = "<group>"; };
 		EAB640E52A4B219200368ACD /* ListViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewPresenter.swift; sourceTree = "<group>"; };
@@ -121,9 +133,47 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
+		A084AFB82A7EA9F40033F16E /* TaylorSwiftSongsList */ = {
+			isa = PBXGroup;
+			children = (
+				A084AFC12A7EAB450033F16E /* Presenter */,
+				A084AFC02A7EAAC00033F16E /* View */,
+				A084AFBD2A7EAA900033F16E /* Entity */,
+			);
+			path = TaylorSwiftSongsList;
+			sourceTree = "<group>";
+		};
+		A084AFBD2A7EAA900033F16E /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				A084AFBB2A7EAA6C0033F16E /* ListSongViewModel.swift */,
+				A084AFB92A7EAA190033F16E /* Song.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		A084AFC02A7EAAC00033F16E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A084AFBE2A7EAABB0033F16E /* TaylorSwiftSongsView.swift */,
+				A084AFC42A7EB1DC0033F16E /* AlbumDetailView.swift */,
+				A084AFC62A7ECFA20033F16E /* AlbumPhotoContainer.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A084AFC12A7EAB450033F16E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A084AFC22A7EAB560033F16E /* TaylorSwiftSongsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		EAB640E12A4B20AC00368ACD /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				A084AFB82A7EA9F40033F16E /* TaylorSwiftSongsList */,
 				8D8053072A54EEDC00DD324C /* Dogs */,
 				EAB640E42A4B213400368ACD /* UserDetail */,
 				EAB640E22A4B20B900368ACD /* UserList */,
@@ -373,6 +423,7 @@
 			files = (
 				8D8053112A54F13300DD324C /* DogsRouter.swift in Sources */,
 				F272650B2A3213A0008A6129 /* ContentView.swift in Sources */,
+				A084AFC72A7ECFA20033F16E /* AlbumPhotoContainer.swift in Sources */,
 				EAB640E62A4B219200368ACD /* ListViewPresenter.swift in Sources */,
 				8D80530F2A54F11300DD324C /* DogsView.swift in Sources */,
 				EA5C960C2A43F37C0060FE73 /* CheckRectangleView.swift in Sources */,
@@ -380,12 +431,17 @@
 				8D8053092A54EF2000DD324C /* DogsInteractor.swift in Sources */,
 				EA5C960E2A43F9C20060FE73 /* DetailsRootView.swift in Sources */,
 				EAB640EC2A4B22C100368ACD /* ViewDidLoadModifier.swift in Sources */,
+				A084AFBC2A7EAA6C0033F16E /* ListSongViewModel.swift in Sources */,
 				8D8053162A54F8D200DD324C /* DogsResponse.swift in Sources */,
 				EAB640E82A4B21CC00368ACD /* ListViewModel.swift in Sources */,
+				A084AFC32A7EAB560033F16E /* TaylorSwiftSongsPresenter.swift in Sources */,
 				EAB9B71A2A37894000DCE5B9 /* ListRootView.swift in Sources */,
 				F27265092A3213A0008A6129 /* SwiftUILearningApp.swift in Sources */,
 				8D8053142A54F6BB00DD324C /* NetworkManager.swift in Sources */,
+				A084AFBA2A7EAA190033F16E /* Song.swift in Sources */,
+				A084AFBF2A7EAABB0033F16E /* TaylorSwiftSongsView.swift in Sources */,
 				EAB9B7182A37861E00DCE5B9 /* RowView.swift in Sources */,
+				A084AFC52A7EB1DC0033F16E /* AlbumDetailView.swift in Sources */,
 				8D80530D2A54EF8300DD324C /* DogsPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
