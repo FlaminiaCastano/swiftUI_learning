@@ -17,6 +17,8 @@
 		9D41F40C2A827D07000BBBD0 /* SpeechIndicatorComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41F40B2A827D07000BBBD0 /* SpeechIndicatorComponent.swift */; };
 		9D41F40E2A827D2D000BBBD0 /* GradientCircleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41F40D2A827D2D000BBBD0 /* GradientCircleComponent.swift */; };
 		A0622B0F2A85665600EE6EBE /* ColorsBallsViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0622B0E2A85665600EE6EBE /* ColorsBallsViewComponent.swift */; };
+		A0622B112A85AAC200EE6EBE /* DecorativeLineComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0622B102A85AAC200EE6EBE /* DecorativeLineComponent.swift */; };
+		A0622B132A85B03A00EE6EBE /* HeroDexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0622B122A85B03A00EE6EBE /* HeroDexView.swift */; };
 		EA5C960C2A43F37C0060FE73 /* CheckRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5C960B2A43F37C0060FE73 /* CheckRectangleView.swift */; };
 		EA5C960E2A43F9C20060FE73 /* DetailsRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5C960D2A43F9C20060FE73 /* DetailsRootView.swift */; };
 		EAB640E62A4B219200368ACD /* ListViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB640E52A4B219200368ACD /* ListViewPresenter.swift */; };
@@ -61,6 +63,8 @@
 		9D41F40B2A827D07000BBBD0 /* SpeechIndicatorComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechIndicatorComponent.swift; sourceTree = "<group>"; };
 		9D41F40D2A827D2D000BBBD0 /* GradientCircleComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientCircleComponent.swift; sourceTree = "<group>"; };
 		A0622B0E2A85665600EE6EBE /* ColorsBallsViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsBallsViewComponent.swift; sourceTree = "<group>"; };
+		A0622B102A85AAC200EE6EBE /* DecorativeLineComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecorativeLineComponent.swift; sourceTree = "<group>"; };
+		A0622B122A85B03A00EE6EBE /* HeroDexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDexView.swift; sourceTree = "<group>"; };
 		EA5C960B2A43F37C0060FE73 /* CheckRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckRectangleView.swift; sourceTree = "<group>"; };
 		EA5C960D2A43F9C20060FE73 /* DetailsRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsRootView.swift; sourceTree = "<group>"; };
 		EAB640E52A4B219200368ACD /* ListViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewPresenter.swift; sourceTree = "<group>"; };
@@ -131,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				9D41F40A2A827D07000BBBD0 /* Components */,
+				A0622B122A85B03A00EE6EBE /* HeroDexView.swift */,
 			);
 			path = HeroDex;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 				9D41F40B2A827D07000BBBD0 /* SpeechIndicatorComponent.swift */,
 				9D41F40D2A827D2D000BBBD0 /* GradientCircleComponent.swift */,
 				A0622B0E2A85665600EE6EBE /* ColorsBallsViewComponent.swift */,
+				A0622B102A85AAC200EE6EBE /* DecorativeLineComponent.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -401,8 +407,10 @@
 				EAB640E62A4B219200368ACD /* ListViewPresenter.swift in Sources */,
 				8D80530F2A54F11300DD324C /* DogsView.swift in Sources */,
 				EA5C960C2A43F37C0060FE73 /* CheckRectangleView.swift in Sources */,
+				A0622B112A85AAC200EE6EBE /* DecorativeLineComponent.swift in Sources */,
 				9D41F40E2A827D2D000BBBD0 /* GradientCircleComponent.swift in Sources */,
 				EAB9B7162A37858100DCE5B9 /* User.swift in Sources */,
+				A0622B132A85B03A00EE6EBE /* HeroDexView.swift in Sources */,
 				8D8053092A54EF2000DD324C /* DogsInteractor.swift in Sources */,
 				EA5C960E2A43F9C20060FE73 /* DetailsRootView.swift in Sources */,
 				EAB640EC2A4B22C100368ACD /* ViewDidLoadModifier.swift in Sources */,
